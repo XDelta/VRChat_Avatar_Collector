@@ -1,6 +1,9 @@
 # VRChat_Avatar_Collector
 Script used to collect/archive your currently worn public avatar from vrchat.
 
+## Prerequisite
+Python 3.8
+
 ## Install
 ```bash
 $ pip install -r requirements.txt
