@@ -5,6 +5,8 @@ Script used to collect/archive your currently worn public avatar from vrchat.
 Python 3.8
 
 ## Install
+Download the [Latest Release](https://github.com/XDelta/VRChat_Avatar_Collector/releases/latest)<br>
+Unzip and navigate to the unzipped folder<br>
 ```bash
 $ pip install -r requirements.txt
 ```
