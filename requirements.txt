@@ -1,2 +1,2 @@
 requests>=2.23.0
-vrcpy>=0.5.4
+vrcpy==0.5.4
