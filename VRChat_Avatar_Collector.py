@@ -3,7 +3,7 @@
 Copyright 2020, Delta Wolf
 Released under the Creative Commons Attribution-ShareAlike 4.0 license
 
-6/14/20
+6/16/20
 """
 import json, os, shutil, time
 from datetime import datetime
