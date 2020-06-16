@@ -49,13 +49,13 @@ def main():
 
 	def avtr_grab():
 		b = client.fetch_me() #refresh user object
-		avtr_name = client.fetch_avatar(b.currentAvatar).name #should be a way to get the name of the avatar without a second fetch
-		avtr_id = b.currentAvatar
-		img = b.currentAvatarThumbnailImageUrl
-		log("------------------------")
+		avtr_name = b.currentAvatar.name
+		avtr_id = b.currentAvatar.id
+		img = b.currentAvatar.thumbnailImageUrl #sometimes gets api.vrchat.cloud img link instead of cloudfront thumbnail png
+		log("-"*24)
 		log("Name: "+avtr_name)
 		log("ID: "+avtr_id)
-		log("Img: "+img) #sometimes gets api.vrchat.cloud img link instead of cloudfront thumbnail png
+		log("Img: "+img)
 		outputFile = os.path.join(DIR, avtr_id+".png")
 		log(outputFile)
 
