@@ -1,3 +1,5 @@
+# DEPRECATED
+Use https://github.com/XDelta/VRC_Fav_UI/ instead
 # VRChat_Avatar_Collector
 Script used to collect/archive your currently worn public avatar from vrchat.
 
